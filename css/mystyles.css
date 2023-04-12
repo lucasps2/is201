@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Moon&display=swap');
+
+body {
+  font-family: Arial, sans-serif;
+  background-image: url(https://t4.ftcdn.net/jpg/04/20/28/81/360_F_420288131_iARUHocKEltP58eCx1UcVeaaNX4NdXrC.jpg);
+  background-size: cover;
+  text-align: center;
+  color: #F7E7D3;
+}
+
+h1 {
+  font-family: 'Moon', sans-serif;
+  font-weight: bold;
+  font-size: 36px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+h2, {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+h3 {
+  font-weight: bold;
+
+}
+
+img {
+  border: 1px solid #F7E7D3;
+  border-radius: 4px;
+  padding: 5px;
+}
+
+a {
+  color: #F7E7D3;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #D3C5A5;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+
+.video {
+  background-color: #FFFDD0;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%; /* adjust as needed */
+}
+
+.video iframe {
+  margin: 0 auto;
+  display: block;
+  width: 100%; /* make sure the iframe takes up the full width */
+}
+
+
+.introduction p {
+  font-family: Arial, sans-serif;
+  font-style: italic;
+  font-size: 16px;
+  color: #F7E7D3;
+  }
+
+  .image {
+    text-align: center;
+  }
+  
+  .image img {
+    display: block;
+    margin: 0 auto;
+    max-width: 25%; /* adjust as needed */
+  }
+
+  .video {
+    position: absolute;
+    top: 180%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #FFFDD0;
+    padding: 10px;
+    width: 50%;
+    }
+    
+    .video iframe {
+    width: 100%;
+    }
+
+    body {
+      text-align: center;
+    }
+    
+    .container {
+      text-align: center;
+    }
+    
+    header h1,
+    .introduction h2,
+    .links h3,
+    .image h3 {
+      text-align: center;
+    }
+
+    ul {
+      text-align: center;
+      list-style-position: inside;
+    }
+
+    .nested-lists ol {
+      text-align: center;
+      list-style-position: inside;
+    }
+    
+    img {
+      border: 5px solid #F7E7D3; /* increase the width of the border */
+      border-radius: 4px;
+      padding: 5px;
+    }
+
+
+    .tableauPlaceholder {
+      width: 750px;
+      height: 800px;
+      margin: 0 auto;
+      text-align: center;
+    }
